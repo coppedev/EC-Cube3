@@ -43,8 +43,8 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
 }
 
 //[INFO]index.php,install.phpをEC-CUBEルート直下に移動させる場合は、コメントアウトしている行に置き換える
-require_once __DIR__.'/../autoload.php';
-//require_once __DIR__.'/autoload.php';
+// require_once __DIR__.'/../autoload.php';
+require_once __DIR__.'/autoload.php';
 
 Debug::enable();
 
@@ -71,7 +71,8 @@ $app->initializePlugin();
 $conf = $app['config'];
 $app['config'] = $app->share(function () use ($conf) {
     $confarray = array();
-    $config_dev_file = __DIR__.'/../app/config/eccube/config_dev.yml';
+    // $config_dev_file = __DIR__.'/../app/config/eccube/config_dev.yml';
+    $config_dev_file = __DIR__.'/app/config/eccube/config_dev.yml';
     if (file_exists($config_dev_file)) {
         $config_dev = Yaml::parse(file_get_contents($config_dev_file));
         if (isset($config_dev)) {
@@ -95,7 +96,8 @@ if (isset($app['config']['delivery_address'])) {
 
 // Silex Web Profiler
 $app->register(new \Silex\Provider\WebProfilerServiceProvider(), array(
-    'profiler.cache_dir' => __DIR__.'/../app/cache/profiler',
+    // 'profiler.cache_dir' => __DIR__.'/../app/cache/profiler',
+    'profiler.cache_dir' => __DIR__.'/app/cache/profiler',
     'profiler.mount_prefix' => '/_profiler',
 ));
 
