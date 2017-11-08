@@ -38,9 +38,6 @@ Eccube\Entity\Order:
         message:
             type: text
             nullable: true
-        # content:
-        #     type: text
-        #     nullable: true
         name01:
             type: text
             nullable: true

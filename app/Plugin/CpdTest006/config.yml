@@ -1,0 +1,8 @@
+name: データベース関連確認のプラグイン
+code: CpdTest006
+version: 0.0.1
+event: CpdTest006Event
+service:
+    - CpdTest006ServiceProvider
+orm.path:
+    - /Resource/doctrine

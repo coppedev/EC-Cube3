@@ -1,0 +1,7 @@
+name: データベース関連確認のプラグイン
+code: NakwebTest006
+version: 0.0.1
+service:
+    - NakwebTest006ServiceProvider
+orm.path:
+    - /Resource/doctrine

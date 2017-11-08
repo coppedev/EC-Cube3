@@ -28,7 +28,7 @@ class Cpd001Event
         // フォームの項目追加
         $builder
             ->add(
-                'content',
+                'plg_cpd001_content',
                 'text',
                 array(
                     'required' => false,
@@ -71,7 +71,7 @@ class Cpd001Event
         $inputData = new \Plugin\Cpd001\Entity\Cpd001();
 
         // エンティティを更新
-        $inputData->setContent($form['content']->getData());
+        $inputData->setContent($form['plg_cpd001_content']->getData());
 
         // DB更新
         $app['orm.em']->persist($inputData);

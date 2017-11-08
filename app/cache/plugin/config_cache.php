@@ -48,4 +48,41 @@
       ),
     ),
   ),
+  'CpdTest006' => 
+  array (
+    'config' => 
+    array (
+      'name' => 'データベース関連確認のプラグイン',
+      'code' => 'CpdTest006',
+      'version' => '0.0.1',
+      'event' => 'CpdTest006Event',
+      'service' => 
+      array (
+        0 => 'CpdTest006ServiceProvider',
+      ),
+      'orm.path' => 
+      array (
+        0 => '/Resource/doctrine',
+      ),
+    ),
+    'event' => 
+    array (
+      'admin.setting.shop.shop.index.initialize' => 
+      array (
+        0 => 
+        array (
+          0 => 'onAdminHomeInit',
+          1 => 'NORMAL',
+        ),
+      ),
+      'admin.setting.shop.shop.index.complete' => 
+      array (
+        0 => 
+        array (
+          0 => 'onAdminHomeEditComplete',
+          1 => 'NORMAL',
+        ),
+      ),
+    ),
+  ),
 );
