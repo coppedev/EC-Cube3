@@ -61,3 +61,4 @@ if (isset($app['config']['eccube_install']) && $app['config']['eccube_install'])
     header('Location:'.$location);
     exit;
 }
+
