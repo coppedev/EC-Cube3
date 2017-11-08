@@ -1,14 +1,14 @@
 <?php
 
-/* __string_template__2c158d8e57a4f90b409e0cb03ad123a1ca0c5712d268586d94fb4664eb4e49af */
-class __TwigTemplate_f6707affc0e2e3d36cca69fbf9536d51562989c5c659710c9cbf22f9cff0a687 extends Twig_Template
+/* __string_template__3d4ae681d1161b8187bd5a4ceeef6b694cc0b48178850b314fc980c68f944bbb */
+class __TwigTemplate_ff5bfd2eb63885f881808b1ef4edb93da7ebbdb0e61b31d389c84a9b844ee051 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
         parent::__construct($env);
 
         // line 23
-        $this->parent = $this->loadTemplate("default_frame.twig", "__string_template__2c158d8e57a4f90b409e0cb03ad123a1ca0c5712d268586d94fb4664eb4e49af", 23);
+        $this->parent = $this->loadTemplate("default_frame.twig", "__string_template__3d4ae681d1161b8187bd5a4ceeef6b694cc0b48178850b314fc980c68f944bbb", 23);
         $this->blocks = array(
             'title' => array($this, 'block_title'),
             'sub_title' => array($this, 'block_sub_title'),
@@ -152,7 +152,7 @@ class __TwigTemplate_f6707affc0e2e3d36cca69fbf9536d51562989c5c659710c9cbf22f9cff
 
     public function getTemplateName()
     {
-        return "__string_template__2c158d8e57a4f90b409e0cb03ad123a1ca0c5712d268586d94fb4664eb4e49af";
+        return "__string_template__3d4ae681d1161b8187bd5a4ceeef6b694cc0b48178850b314fc980c68f944bbb";
     }
 
     public function isTraitable()
@@ -175,6 +175,6 @@ class __TwigTemplate_f6707affc0e2e3d36cca69fbf9536d51562989c5c659710c9cbf22f9cff
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "__string_template__2c158d8e57a4f90b409e0cb03ad123a1ca0c5712d268586d94fb4664eb4e49af", "");
+        return new Twig_Source("", "__string_template__3d4ae681d1161b8187bd5a4ceeef6b694cc0b48178850b314fc980c68f944bbb", "");
     }
 }

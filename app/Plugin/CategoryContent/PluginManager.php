@@ -1,6 +1,5 @@
 <?php
-
-namespace Plugin\Cpd001;
+namespace Plugin\CategoryContent;
 
 use Eccube\Plugin\AbstractPluginManager;
 

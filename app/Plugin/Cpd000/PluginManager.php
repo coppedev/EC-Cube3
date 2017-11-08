@@ -4,7 +4,7 @@ namespace Plugin\Cpd000;
 
 use Eccube\Plugin\AbstractPluginManager;
 
-class Cpd000 extends AbstractPluginManager
+class PluginManager extends AbstractPluginManager
 {
 
     public function install($config, $app)
