@@ -33,7 +33,7 @@ class CpdTest006Event
                 'text',
                 array(
                     'required' => false,
-                    'label' => 'CpdTest006サンプルタイトル',
+                    'label' => 'サンプルタイトル',
                     'mapped' => false,
                     'attr' => array(
                         'placeholder' => '',
@@ -45,7 +45,7 @@ class CpdTest006Event
                 'text',
                 array(
                     'required' => false,
-                    'label' => 'CpdTest006サンプル内容',
+                    'label' => 'サンプル内容',
                     'mapped' => false,
                     'attr' => array(
                         'placeholder' => '',
