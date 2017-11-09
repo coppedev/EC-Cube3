@@ -1,0 +1,18 @@
+Plugin\Cpd002\Entity\Cpd002:
+    type: entity
+    table: plg_cpd002
+    repositoryClass: Plugin\Cpd002\Repository\Cpd002Repository
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            id: true
+            column: category_id
+            generator:
+                strategy: NONE
+    fields:
+        content:
+            type: text
+            nullable: true
+    lifecycleCallbacks: {  }

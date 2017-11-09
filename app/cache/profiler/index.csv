@@ -1,5 +1,10 @@
-32c31d,::1,DELETE,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/store/plugin/19/uninstall,1510207770,,302
-c0de05,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/store/plugin,1510207771,,200
-94b511,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/store/plugin,1510207814,,200
-664574,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/store/plugin,1510208388,,200
-3430a2,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/store/plugin,1510208402,,200
+90b60f,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/product/category,1510209710,,200
+43428f,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/product/category/7,1510209722,,200
+3cea88,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/product/category/7/edit,1510209730,,200
+9189f1,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/product/category,1510209736,,200
+3c02af,::1,POST,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/product/category,1510209758,,500
+db9805,::1,POST,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/product/category,1510209888,,302
+590523,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/product/category,1510209889,,200
+fc357d,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/product/category/9/edit,1510209894,,200
+a1bc65,::1,POST,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/product/category/9/edit,1510209899,,302
+c7ebe9,::1,GET,http://localhost:8888/CPD/ecc3.dev/html/index_dev.php/ecadmin/product/category,1510209900,,200
