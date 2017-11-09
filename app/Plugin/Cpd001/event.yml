@@ -1,7 +1,0 @@
-front.shopping.index.initialize:
-    - [onFrontShoppingInit, NORMAL] 
-# front.shopping.confirm.initialize:
-#     - [onFrontShoppingConfirmInit, NORMAL] 
-
-front.shopping.confirm.complete:
-    - [onFrontShoppingCompleteInit, NORMAL] 

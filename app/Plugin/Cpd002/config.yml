@@ -1,8 +1,0 @@
-name: Cpd002
-code: Cpd002
-version: 0.0.1
-event: Cpd002Event
-service:
-    - Cpd002ServiceProvider
-orm.path:
-    - /Resource/doctrine

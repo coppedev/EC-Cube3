@@ -1,4 +1,0 @@
-admin.setting.shop.shop.index.initialize:
-    - [onAdminHomeInit, NORMAL]
-admin.setting.shop.shop.index.complete:
-    - [onAdminHomeEditComplete, NORMAL]
